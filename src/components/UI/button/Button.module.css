@@ -1,0 +1,30 @@
+.button2 {
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: rgb(81, 81, 230);
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.button3 {
+  height: 30px;
+  width: 60px;
+  margin-left: 5px;
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  background: rgb(179, 179, 248);
+
+  &:hover {
+    background: rgb(199, 199, 200);
+    backdrop-filter: blur(10px);
+  }
+
+  &:focus {
+    background: rgb(207, 207, 207);
+    /* background: red; */
+  }
+}

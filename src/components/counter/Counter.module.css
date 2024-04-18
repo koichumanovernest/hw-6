@@ -1,0 +1,7 @@
+.Counter{
+  display: flex;
+  gap: 40px;
+  h1{
+    margin-top: -0px;
+  }
+}
